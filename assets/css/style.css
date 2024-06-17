@@ -1,9 +1,12 @@
+body {
+    background-color: aqua;
+}
 .game-area {
     box-sizing: border-box;
     margin-left: auto;
     margin-right: auto;
     width: 75%;
-    background-color: black;
+    background-color: grey;
     padding-left: 1%;
 }
 
@@ -13,9 +16,9 @@ h1 {
     width: 97%;
 }
 button {
-    width: 200px;
-    height: 75px;
-    font-size: 150%;
+    width: 40%;
+    height: 25%;
+    font-size: 120%;
     letter-spacing: 1.5px;
     margin: 10px;
     border-radius: 40%;
@@ -34,4 +37,25 @@ button {
 }
 .button-pink {
     background-color: pink;
+}
+.button-orange {
+    background-color: orange;
+}
+.container {
+    background-color: grey;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    height: 55vh;
+    width: 75%;
+}
+.color-box {
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    width: 80%;
+    height: 50%;
+    margin-left: 10%;
+    margin-right: 5%;
+    margin-top: 12%;
 }
