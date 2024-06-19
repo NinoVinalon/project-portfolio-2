@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const buttons = document.getElementsByTagName("button");
     const colorBox = document.getElementById("color-box");
     const choices = ["blue", "red", "yellow", "green", "pink", "orange",];
+    
 
     /* add event listener to all buttons */
     for (let button of buttons) {
@@ -21,10 +22,12 @@ function runGame(playerChoice) {
     colorBox.style.backgroundColor = color;
     colorBox.setAttribute('aria-label', `Color: ${computerChoice}`);
 
-    if (playerChoice !== color) {
+    setTimeout(function() { 
+        if (playerChoice !== color) {
         alert (`Incorrect the color was ${color}`);
-    } else {
+        } else {
         alert ("Correct");
-    }
+        }   
+    }, 300)
 }  
 });
