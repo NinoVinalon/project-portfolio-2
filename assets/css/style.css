@@ -21,7 +21,6 @@ button {
     font-size: 120%;
     letter-spacing: 1.5px;
     margin: 10px;
-    border-radius: 40%;
 }
 .button-red {
     background-color: red;
@@ -49,8 +48,7 @@ button {
     height: 55vh;
     width: 75%;
 }
-.color-box {
-    
+#color-box {
     background-color: white;
     position: absolute;
     width: 80%;

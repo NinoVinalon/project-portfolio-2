@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() { 
     const buttons = document.getElementsByTagName("button");
-    const colorBox = documment.getElementsByClassName("color-box")[0];
+    const colorBox = document.getElementById("color-box");
     const choices = ["blue", "red", "yellow", "green", "pink", "orange",];
 
     /* add event listener to all buttons */
@@ -11,12 +11,14 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     }
 
-
 function runGame(playerChoice) {
     let computerChoice = Math.floor(Math.random() * choices.length);
+    console.log(computerChoice);
     let color = choices[computerChoice];
+    console.log(color);
     colorBox.style.backgroundColor = color;
     colorBox.setAttribute('aria-label', `Color: ${computerChoice}`);
-     
+
 }
+     
 });
