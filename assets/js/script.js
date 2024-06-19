@@ -8,6 +8,13 @@ document.addEventListener("DOMContentLoaded", function() {
     const buttonOrange = document.getElementsByClassName("button-orange");
     const choices = ["blue", "red", "yellow", "green", "pink", "orange",];
 
+    for (let button of buttons) {
+        button.addEventListener("click", function () {
+            let playerChoice = this.getAttribute("data-choice");
+            runGame(playerChoice);
+        })
+    }
+
 })
 
 function runGame() {
