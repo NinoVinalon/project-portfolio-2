@@ -5,8 +5,6 @@ document.addEventListener("DOMContentLoaded", function() {
     const score = document.getElementById("score");
     let currentScore = parseInt(score.textContent);
     
-    
-
     /* add event listener to all buttons */
     for (let button of buttons) {
         button.addEventListener("click", function () {
@@ -44,6 +42,7 @@ function runGame(playerChoice) {
                 score.textContent = currentScore;     
                 end();
                 alert ("Game Over! Your score is 0")
+                score.parentElement.textContent = "GAME OVER!"
             }
           
     }, 300); 
