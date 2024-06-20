@@ -1,6 +1,8 @@
 body {
     background-color: aqua;
+    font-family: Verdana, sans-serif;
 }
+
 .game-area {
     position: static;
     box-sizing: border-box;
@@ -16,6 +18,7 @@ h1 {
     font-size: 200%;
     width: 97%;
 }
+
 button {
     width: 40%;
     height: 25%;
@@ -23,24 +26,31 @@ button {
     letter-spacing: 1.5px;
     margin: 10px;
 }
+
 .button-red {
     background-color: red;
 }
+
 .button-blue {
     background-color: blue;
 }
+
 .button-yellow {
     background-color: yellow;
 }
-.button-green{
+
+.button-green {
     background-color: green;
 }
+
 .button-pink {
     background-color: pink;
 }
+
 .button-orange {
     background-color: orange;
 }
+
 .container {
     background-color: grey;
     position: relative;
@@ -49,6 +59,7 @@ button {
     height: 45vh;
     width: 80%;
 }
+
 #color-box {
     background-color: white;
     position: absolute;
@@ -58,6 +69,7 @@ button {
     margin-right: 5%;
     margin-top: 12%;
 }
+
 .score {
     text-align: center;
     font-size: 250%;

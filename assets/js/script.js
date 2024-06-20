@@ -13,6 +13,7 @@ document.addEventListener("DOMContentLoaded", function() {
             runGame(playerChoice);
         });
     }
+    
 function runGame(playerChoice) {
     let computerChoice = Math.floor(Math.random() * choices.length);
     console.log(computerChoice);
@@ -53,7 +54,5 @@ function runGame(playerChoice) {
         }
     }
     
-
-
 }  
 });
