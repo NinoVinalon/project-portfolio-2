@@ -45,7 +45,7 @@ button {
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    height: 55vh;
+    height: 45vh;
     width: 75%;
 }
 #color-box {
@@ -56,4 +56,8 @@ button {
     margin-left: 10%;
     margin-right: 5%;
     margin-top: 12%;
+}
+.score {
+    text-align: center;
+    font-size: 250%;
 }
