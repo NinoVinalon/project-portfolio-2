@@ -2,6 +2,8 @@ document.addEventListener("DOMContentLoaded", function() {
     const buttons = document.getElementsByTagName("button");
     const colorBox = document.getElementById("color-box");
     const choices = ["blue", "red", "yellow", "green", "pink", "orange",];
+    const score = document.getElementById("score");
+    let currentScore = parseInt(score.textContent);
     
 
     /* add event listener to all buttons */
@@ -21,12 +23,19 @@ function runGame(playerChoice) {
 
     colorBox.style.backgroundColor = color;
     colorBox.setAttribute('aria-label', `Color: ${computerChoice}`);
+    console.log(currentScore);
 
     setTimeout(function() { 
         if (playerChoice !== color) {
-        alert (`Incorrect the color was ${color}`);
+            currentScore -= 10;
+            score.textContent = currentScore;
+            console.log(currentScore)
+            alert (`Incorrect the color was ${color}`);
         } else {
-        alert ("Correct");
+            currentScore += 50;
+            score.textContent = currentScore;
+            console.log(currentScore)
+            alert ("Correct");
         }   
     }, 300)
 }  
