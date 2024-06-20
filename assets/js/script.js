@@ -31,7 +31,7 @@ function runGame(playerChoice) {
             console.log(currentScore)
             alert (`Incorrect the color was ${color}`);
         } else {
-            currentScore += 100;
+            currentScore += 50;
             score.textContent = currentScore;
             console.log(currentScore)
             alert ("Correct");
