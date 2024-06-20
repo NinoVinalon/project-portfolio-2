@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const score = document.getElementById("score");
     let currentScore = parseInt(score.textContent);
     
+    
 
     /* add event listener to all buttons */
     for (let button of buttons) {
@@ -32,11 +33,28 @@ function runGame(playerChoice) {
             console.log(currentScore)
             alert (`Incorrect the color was ${color}`);
         } else {
-            currentScore += 50;
+            currentScore += 100;
             score.textContent = currentScore;
             console.log(currentScore)
             alert ("Correct");
-        }   
-    }, 300)
+        }
+
+            if (currentScore <= 0) {
+                currentScore = 0;
+                score.textContent = currentScore;     
+                end();
+                alert ("Game Over! Your score is 0")
+            }
+          
+    }, 300); 
+
+    function end() {
+        for (let button of buttons) {
+            button.disabled = true;
+        }
+    }
+    
+
+
 }  
 });
