@@ -29,12 +29,12 @@ function runGame(playerChoice) {
         if (playerChoice !== color) {
             currentScore -= 10;
             score.textContent = currentScore;
-            console.log(currentScore)
+            console.log(currentScore);
             alert (`Incorrect the color was ${color}`);
         } else {
             currentScore += 50;
             score.textContent = currentScore;
-            console.log(currentScore)
+            console.log(currentScore);
             alert ("Correct");
         }
 
@@ -42,8 +42,8 @@ function runGame(playerChoice) {
                 currentScore = 0;
                 score.textContent = currentScore;     
                 end();
-                alert ("Game Over! Your score is 0")
-                score.parentElement.textContent = "GAME OVER!"
+                alert ("Game Over! Your score is 0");
+                score.parentElement.textContent = "GAME OVER!";
             }
           
     }, 300); 
