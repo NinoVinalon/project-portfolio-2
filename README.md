@@ -42,7 +42,8 @@ displayed at the bottom of the page.
     - The game runs smoothly and no problems occurred.
     - The game results are always correct.
     - I make sure that the rules are easy to understand.
-    - I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools.
+    - I confirmed that the colors and fonts chosen are easy to read and accessible <br>
+    by running it through lighthouse in devtools.
 
         ![Responsive website example image](assets/images/cglighthouse.jpg)
 
