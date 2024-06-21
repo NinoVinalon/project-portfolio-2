@@ -73,4 +73,12 @@ button {
 .score {
     text-align: center;
     font-size: 250%;
+    margin: 0%
+}
+#rules {
+    display: flex;
+    justify-content: center;
+    font-size: 150%;
+    font-weight: bold;
+    cursor: pointer;
 }
