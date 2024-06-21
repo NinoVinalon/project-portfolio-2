@@ -58,12 +58,27 @@ displayed at the bottom of the page.
 
 - **Javascript**
     - No errors were found when passing through the [official JSHint JavaScript Validator](https://jshint.com/)
-
     - There are 6 functions in this file.
     - Function with the largest signature take 1 arguments, while the median is 0.
     - Largest function has 21 statements in it, while the median is 6.
     - The most complex function has a cyclomatic complexity value of 4 while the median is 1.5.
 
 ### Unfixed Bugs
-
     No unfixed bugs.
+
+## Deployment
+
+- The site was deployed to Github pages. The steps to deploy are as follows.
+    - In the github repository, navigate to the Settings tab.
+    - From the source section drop-down menu, select the Master Branch.
+    - Once the Master Branch has been selected, the page provided the link to the completed website.
+The live link can be found here [Color Game](https://ninovinalon.github.io/project-portfolio-2/)
+
+## Credits
+
+### Content
+- Thanks to my mentor Harry Dhillon and to Student Support for helping me with some errors.
+
+### Media
+- The logo of the Color Game was taken from Fontawesome, and the icon is from Favicon.
+
