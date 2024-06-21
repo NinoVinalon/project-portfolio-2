@@ -16,8 +16,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
     /* event listener for rules button */
     document.getElementById("rules").addEventListener("click", function () {
-        alert("Game Rules:\n1. Click a color button to choose a color.\n2. A random color will be displayed in the box.\n3. If the displayed color matches your choice, you win 50 pts! \n4. If the displayed color did not match, you lose 10 points. \n5. Once your score goes down to ZERO, its Game Over! \n6. Once your score reach 200, You Win!") 
-    })
+        alert("Game Rules:\n1. Click a color button to choose a color.\n2. A random color will be displayed in the box.\n3. If the displayed color matches your choice, you win 50 pts! \n4. If the displayed color did not match, you lose 10 points. \n5. Once your score goes down to ZERO, its Game Over! \n6. Once your score reach 200, You Win!"); 
+    });
 
     function runGame(playerChoice) {
         let computerChoice = Math.floor(Math.random() * choices.length);
