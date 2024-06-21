@@ -45,7 +45,8 @@ displayed at the bottom of the page.
     - I confirmed that the colors and fonts chosen are easy to read and accessible <br>
     by running it through lighthouse in devtools.
 
-        ![Responsive website example image](assets/images/cglighthouse.jpg)
+    ![Responsive website example image](assets/images/cglighthouse.jpg)
+
 
 ### Validator Testing
 
