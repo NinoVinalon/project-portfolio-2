@@ -23,6 +23,7 @@ displayed at the bottom of the page.
 - **The Color Game Logo and Heading**
     - Featured at the top of the page, the Love Maths logo and heading is easy to see for the user. Upon viewing the page, the user will be able to see the name of the game.
 
+<p align=center>
 ![Responsive website example image](assets/images/cgheader.jpg)
-
+</p>
 
