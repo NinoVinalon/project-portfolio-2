@@ -23,7 +23,18 @@ displayed at the bottom of the page.
 - **The Color Game Logo and Heading**
     - Featured at the top of the page, the Love Maths logo and heading is easy to see for the user. Upon viewing the page, the user will be able to see the name of the game.
 
-<p align=center>
-![Responsive website example image](assets/images/cgheader.jpg)
-</p>
+        ![Responsive website example image](assets/images/cgheader.jpg)
 
+- **The Game Area**
+    - The user has the option to choose the color in this section. There are 6 colors to choose from: blue, red, yellow, green, pink, and orange. You will also see the color box which will show which color the computer chooses from the 6 colors.
+
+        ![Responsive website example image](assets/images/cgamearea.jpg)
+
+- **The Score Area**
+    - This section is where you will find the score and it will change to "Game Over" once the score goes down to zero.
+
+        ![Responsive website example image](assets/images/cscorearea.jpg)
+
+## Testing
+
+    
