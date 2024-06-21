@@ -8,7 +8,7 @@ take a break from few minutes from their dreadful day.
 
 The game itself requires no complex action to function. Players only need to pick and guess any color
 that game board might display. At the start of the game, the player will be given 50 points. Any correct
-guess will merit 50 points and a deduction of 10 points for any incorrect guess.
+guess will merit 50 points and a deduction of 10 points for any incorrect guess.  The user will win if they reach 200 points, while they will lose if their score goes down to zero.
 
 ![Responsive website example image](assets/images/cgadget.jpg)
 
@@ -31,7 +31,7 @@ displayed at the bottom of the page.
         ![Responsive website example image](assets/images/cgamearea.jpg)
 
 - **The Score Area**
-    - This section is where you will find the score and it will change to "Game Over" once the score goes down to zero.
+    - This section is where you will find the score. The score will change to 'Game Over' if the score goes down to zero or 'You Win' if the user scores 200 points.
 
         ![Responsive website example image](assets/images/cscorearea.jpg)
 
@@ -42,6 +42,7 @@ displayed at the bottom of the page.
 - The game runs smoothly and no problems occurred.
 - The game results are always correct.
 - I make sure that the rules are easy to understand.
+- Check if the game finishes when the score goes down to 0 or reaches 200 points.
 - I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools.
 
     ![Responsive website example image](assets/images/cglighthouse.jpg)
@@ -58,10 +59,10 @@ displayed at the bottom of the page.
 - **Javascript**
     - No errors were found when passing through the [official JSHint JavaScript Validator](https://jshint.com/)
 
-    - There are 5 functions in this file.
+    - There are 6 functions in this file.
     - Function with the largest signature take 1 arguments, while the median is 0.
-    - Largest function has 15 statements in it, while the median is 8.
-    - The most complex function has a cyclomatic complexity value of 3 while the median is 2.
+    - Largest function has 21 statements in it, while the median is 6.
+    - The most complex function has a cyclomatic complexity value of 4 while the median is 1.5.
 
 ### Unfixed Bugs
 
