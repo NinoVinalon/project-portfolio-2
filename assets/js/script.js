@@ -51,6 +51,14 @@ document.addEventListener("DOMContentLoaded", function () {
                 score.parentElement.textContent = "GAME OVER!";
             }
 
+            if (currentScore >= 200) {
+                currentScore = 200;
+                score.textContent = currentScore;
+                end();
+                alert("Congratulations! Your score is 200, You Win!");
+                score.parentElement.textContent = "You Win!";
+            }
+
         }, 300);
 
         function end() {
